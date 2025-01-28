@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/welcome_imj"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:contentDescription="@string/welcome_image"
+        android:src="@drawable/welcomenew"/>
+
+    <Button
+        android:id="@+id/new_user"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/mainbtn"
+        android:text="@string/new_user"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/maintext"/>
+
+    <Button
+        android:id="@+id/old_user"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/mainbtn"
+        android:text="@string/existing_user"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/maintext"/>
+
+</LinearLayout>

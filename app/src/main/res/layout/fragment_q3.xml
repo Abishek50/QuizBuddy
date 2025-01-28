@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mediumbg"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".Q3Fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="15dp"
+        android:text="Which metal is liquid at room temperature?"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:gravity="start"
+        tools:ignore="RtlSymmetry">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/spinnerMedium"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:backgroundTint="@color/mediumindicator"
+        android:textColor="@color/itemTitle"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:text="Submit"/>
+
+</LinearLayout>

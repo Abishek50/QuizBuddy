@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="g1">#DDE2E5</color>
+    <color name="g2">#B0C4DE</color>
+    <color name="g3">#708090</color>
+    <color name="mainbtn">#6E91A5</color>
+    <color name="maintext">#3C5060</color>
+    <color name="title">#3A3F44</color>
+    <color name="nikantext">#5A6A75</color>
+    <color name="itemtop">#333333</color>
+    <color name="itemTitle">#FFD700</color>
+    <color name="itembottom">#4F4F4F</color>
+    <color name="itemdes">#00BFFF</color>
+    <color name="easybg">#C3E3CC</color>
+    <color name="easytab">#3F5C47</color>
+    <color name="mediumbg">#FFFACD</color>
+    <color name="mediumtab">#E1AC00</color>
+    <color name="mediumindicator">#B85656</color>
+    <color name="hardbg">#D98F8F</color>
+    <color name="hardtab">#8B0000</color>
+    <color name="hardind">#FF007F</color>
+    <color name="question">#1A1A8F</color>
+
+</resources>

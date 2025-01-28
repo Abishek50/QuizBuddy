@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="new_user">New User</string>
+    <string name="existing_user">Existing User</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email:</string>
+    <string name="passord">Passord:</string>
+    <string name="age">Age:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="create">Create!</string>
+    <string name="log_in">Log In</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="welcome_image">welcome_image</string>
+    <string name="title">Title</string>
+    <string name="description">description</string>
+    <string name="icon">icon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question">question?</string>
+    <string name="text1">text1</string>
+    <string name="op1">op1</string>
+    <string name="options">options</string>
+    <string name="submit">Submit</string>
+    <string name="choose_difficulty">Choose Difficulty</string>
+    <string name="tablayout">tablayout</string>
+    <string name="results">Results</string>
+    <string name="correct">correct</string>
+    <string name="out_of">Out Of</string>
+    <string name="total">total</string>
+    <string name="medium">Medium!!</string>
+    <string name="medium2">MEDIUM!!</string>
+    <string name="hard">HARD!!!</string>
+    <string name="go">GO!!!</string>
+    <string name="easy">EASY!</string>
+    <string name="home">Home</string>
+    <string name="_5">5</string>
+    <string name="what_is_5_7">What is 5 + 7?</string>
+    <string name="which_of_these_colors_are_in_the_rainbow">Which of these colors are in the rainbow?</string>
+    <array name="spinnerEasy">
+        <item>SELECT</item>
+        <item>Superman</item>
+        <item>Eric Cartman</item>
+        <item>Optimus Prime</item>
+        <item>Peter Griffen</item>
+    </array>
+    <array name="spinnerMedium">
+        <item>SELECT</item>
+        <item>Mercury</item>
+        <item>Cast Iron</item>
+        <item>Scrap Metal</item>
+        <item>Tungsten</item>
+    </array>
+    <array name="spinnerHard">
+        <item>SELECT</item>
+        <item>Herbivores</item>
+        <item>Vegans</item>
+        <item>Vegetarians</item>
+        <item>Cattle</item>
+    </array>
+</resources>

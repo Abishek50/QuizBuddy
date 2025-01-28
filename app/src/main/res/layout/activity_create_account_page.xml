@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".CreateAccountPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:text="@string/create_account"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ca"/>
+
+    <!--Email row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/email"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/title"/>
+
+        <EditText
+            android:id="@+id/new_user_email"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="2"
+            android:inputType="textEmailAddress"
+            tools:ignore="TextFields"
+            android:hint="@string/enter_email"/>
+
+    </LinearLayout>
+
+    <!--Password Row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/passord"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/title"/>
+
+        <EditText
+            android:id="@+id/new_user_password"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="2"
+            android:inputType="textPassword"
+            tools:ignore="TextFields"
+            android:hint="@string/enter_password"/>
+
+    </LinearLayout>
+
+    <!--Create Button-->
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:text="@string/create"
+        android:backgroundTint="@color/mainbtn"
+        android:textColor="@color/maintext"
+        android:textSize="20sp"/>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mediumbg"
+    tools:context=".QuizEnvironment">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:textSize="30sp"
+      android:text="@string/medium2"
+      android:textStyle="bold"
+      android:textColor="@color/black"/>
+
+  <com.google.android.material.tabs.TabLayout
+      android:id="@+id/tab1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/mediumtab"
+      app:tabIndicatorColor="@color/mediumindicator"
+      app:tabTextColor="@color/black"
+      android:contentDescription="@string/tablayout"/>
+
+  <androidx.viewpager2.widget.ViewPager2
+      android:id="@+id/viewpager2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="horizontal"/>
+
+  </LinearLayout>

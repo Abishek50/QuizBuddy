@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1"
+    tools:context=".LogInPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:text="@string/log_in"
+        android:textColor="@color/title"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/loginnew"/>
+
+    <EditText
+        android:id="@+id/old_user_username"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/old_user_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="@string/password"/>
+
+    <!--Create Button-->
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/go"
+        android:backgroundTint="@color/mainbtn"
+        android:textColor="@color/maintext"
+        android:textSize="20sp"/>
+
+</LinearLayout>
